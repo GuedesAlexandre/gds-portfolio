@@ -1,0 +1,17 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.cdnfonts.com/css/aerial-3');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(251,232,240);
+background: radial-gradient(circle, rgba(251,232,240,1) 0%, rgba(240,247,255,1) 100%);
+}
