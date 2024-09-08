@@ -1,10 +1,18 @@
 @import url('https://fonts.cdnfonts.com/css/satoshi');
 @import url('https://fonts.cdnfonts.com/css/aerial-3');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+@font-face {
+    font-family: GilroyRegular;
+    src: url(./assets/fonts/Gilroy-Regular.ttf);
+  }
+  @font-face {
+    font-family: GilroyBold;
+    src: url(./assets/fonts/Gilroy-Bold.ttf);
+  }
 *{
 
     margin: 0;
@@ -12,6 +20,9 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(251,232,240);
-background: radial-gradient(circle, rgba(251,232,240,1) 0%, rgba(240,247,255,1) 100%);
+    background: #1A1A1A;
+
+}
+html{
+  scroll-behavior: smooth;
 }

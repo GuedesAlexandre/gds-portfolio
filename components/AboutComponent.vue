@@ -1,40 +1,52 @@
 <template>
-  <div class="lg:mt-[5%] ">
-    <div
-      class="flex items-center  font-medium mb-2 text-xl justify-center md:justify-start md:pl-[2%] md:text-xl lg:justify-start lg:pl-[10%] lg:mb-[1%] lg:text-3xl font-satochi "
+  <div class="flex justify-center flex-col items-center mt-40" id="about">
+    <TitleComponent title="Mon histoire" subtitle="A propos" />
+  </div>
+  <div class="flex justify-center mt-4 gap-5">
+    <img src="../assets/ressources/profil.png" />
+  </div>
+  <div class="flex justify-center">
+    <p
+      class="text-Text text-center mt-8 text-sm lg:text-[16px] w-full lg:w-[1033px] ml-6 mr-6 lg:ml-0 lg:mr-0"
     >
-      <h2 class="lg:text-bold md:text-md">01 | About</h2>
-    </div>
-    <div
-      class="flex lg:pt-[2%] flex-col jusitfy-center items-center gap-2 md:flex-row md:items-center md:justify-center md:gap-[5%] lg:flex-row lg:items-center lg:justify-center lg:gap-[5%] md:p-4"
+      Originaire de Paris, j’ai toujours été passionné par la technologies.
+      Lorsque j’ai obtenu mon bac, j’ai décidé d’orienter mes études vers
+      l’informatique où j’ai découvert une véritable passion pour le
+      développement d’applications FullStack. Mon objectif est de créer des
+      expériences innovantes et enrichissantes pour un maximum d’utilisateurs et
+      ceux grâce à l’informatique. Encore dans mes études, j’occupe actuellement
+      le poste d’apprenti
+      <span class="text-Secondary font-bold">développeur FullStack</span> au
+      sein de BPCE Solutions Informatiques.
+    </p>
+  </div>
+  <div class="flex justify-center flex-col lg:flex-row gap-2 items-center mt-5">
+    <a
+      href="https://www.linkedin.com/in/alexandre-guedesmmi/"
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      <img
-        src="assets/ressources/AboutProfil.png"
-        alt="Alexandre Guedes"
-        class="lg:w-1/5 md:w-1/3 w-1/2"
-      />
-      <p class="text-center md:text-justify lg:text-justify lg:w-1/2 md:text-sm  lg:font-light p-6 lg:text-[18px] ">
-        Je m'appelle Alexandre Guedes, j’ai 20 ans et je suis originaire de
-        Paris. Après avoir obtenu mon baccalauréat STI2D avec une spécialisation
-        en Système d'information et numérique. J'ai découvert ma passion pour le
-        développement informatique lors de ma première année de BUT
-        Informatique. Cette expérience a façonné ma décision de poursuivre mes
-        études en BUT MMI à l'IUT de Meaux, où j'ai approfondi mes compétences
-        en développement web tout en explorant ma créativité.<br><br> Mon intérêt pour
-        le développement web s'est renforcé au fil de mes études, et
-        j'ambitionne de devenir ingénieur informatique spécialisé dans le
-        développement d'applications web et mobiles. Passionné par le cinéma,
-        les jeux vidéo et la pop culture, j'apporte une perspective unique et
-        créative à mes projets. Actuellement à la recherche d'opportunités
-        professionnelles, je suis prêt à contribuer avec enthousiasme au monde
-        du développement d'applications web et mobiles, en combinant mes
-        passions et mes compétences techniques pour créer des solutions
-        innovantes et captivantes.
-      </p>
-    </div>
+      <button
+        class="bg-Accent text-Text flex p-3 rounded-md gap-3 cursor-pointer"
+      >
+        <img src="../assets/icons/other/linkedin.svg" /><span
+          >Voir mon Linkedin</span
+        >
+      </button></a
+    >
+    <a
+      href="https://github.com/GuedesAlexandre"
+      target="_blank"
+      rel="noopener noreferrer"
+      ><button
+        class="bg-none border-solid border-2 border-Accent text-Accent flex p-3 rounded-md gap-3 cursor-pointer"
+      >
+        <img src="../assets/icons/other/github.svg" /><span
+          >Voir mon Github</span
+        >
+      </button></a
+    >
   </div>
 </template>
 
-<script lang="ts" setup></script>
-
-<style></style>
+<script setup lang="ts"></script>
