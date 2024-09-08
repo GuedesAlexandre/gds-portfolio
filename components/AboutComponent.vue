@@ -39,9 +39,9 @@
       target="_blank"
       rel="noopener noreferrer"
       ><button
-        class="bg-none border-solid border-2 border-Accent text-Accent flex p-3 rounded-md gap-3 cursor-pointer"
+        class="bg-none border-solid ring-2 border-Accent text-Accent flex p-3 rounded-md gap-3 cursor-pointer"
       >
-        <img src="../assets/icons/other/github.svg" /><span
+        <img src="../assets/icons/other/github.svg" /><span class="text-Accent font-bold"
           >Voir mon Github</span
         >
       </button></a
