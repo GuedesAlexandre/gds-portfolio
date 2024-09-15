@@ -8,7 +8,7 @@
     </div>
     <div class="flex flex-col lg:flex-row lg:justify-between items-center mt-3">
       <h3 class="lg:text-lg text-md font-semibold text-Text">{{ project.name }}</h3>
-      <button class="text-2xl font-bold p-2 rounded-full bg-Text"><img src="../assets/icons/other/Arrow.svg" ></button>
+      <button class="text-2xl font-bold p-2 rounded-full bg-Text hover:bg-Accent hover:ring-1 cursor-pointer transition-colors "><img src="../assets/icons/other/Arrow.svg" ></button>
     </div>
   </div>
 </template>
