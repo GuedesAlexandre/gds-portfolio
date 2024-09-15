@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center flex-col items-center mt-40" id="about">
+  <div class="flex justify-center flex-col items-center mt-40" id="skills">
     <TitleComponent title="Mes compétences" subtitle="Ma stack" />
   </div>
   <div
