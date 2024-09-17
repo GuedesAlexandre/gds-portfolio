@@ -14,7 +14,3 @@ const props = defineProps<{
   projects: Project[];
 }>();
 </script>
-
-<style>
-
-</style>

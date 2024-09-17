@@ -16,7 +16,7 @@
                     <li><a href="#" class="hover:text-red-500">Accueil</a></li>
                     <li><a href="#about" class="hover:text-red-500">À propos</a></li>
                     <li><a href="#projects" class="hover:text-red-500">Projets</a></li>
-                    <li><a href="#" class="hover:text-red-500">Contact</a></li>
+                    <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -26,7 +26,7 @@
                 <li><a href="#" class="hover:text-red-500">Accueil</a></li>
                 <li><a href="#about" class="hover:text-red-500">À propos</a></li>
                 <li><a href="#projects" class="hover:text-red-500">Projets</a></li>
-                <li><a href="#" class="hover:text-red-500">Contact</a></li>
+                <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
             </ul>
             </div>
         </transition>
