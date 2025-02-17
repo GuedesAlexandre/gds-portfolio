@@ -14,7 +14,7 @@
     <h4 class="mt-4 text-Primary font-gilroy_bold">Mes outils de veille technologique</h4>
     <div class="flex  flex-col  items-center justify-center gap-5 mt-4">
       <div class="text-Text flex-col flex gap-3 items-center justify-center text-center">
-        <img src="../assets/icons/other/stackoverflow.svg" class="w-9" />
+        <img src="../assets/icons/other/StackOverflow.svg" class="w-9" />
         <a href="https://stackoverflow.com/questions" class="hover:text-Secondary" >
           <span class="font-bold">StackOverflow</span>
         </a>
