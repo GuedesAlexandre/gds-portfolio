@@ -3,7 +3,7 @@
     <TitleComponent title="Mes compétences" subtitle="Ma stack" />
   </div>
   <div
-    class="flex lg:flex-row flex-col justify-center items-center gap-10 mt-8 lg:ml-8"
+    class="flex lg:flex-row flex-col justify-center items-center gap-10 sm:gap-8 md:gap-14 lg:gap-24 mt-8 lg:ml-8"
   >
     <SkillsTableComponent :skills="front" />
     <SkillsTableComponent :skills="back" />
@@ -21,8 +21,12 @@ const front = ref<Skill[]>([
       .href,
   },
   {
-    name: "React",
-    icon: new URL("@/assets/icons/front/Reactfront.svg", import.meta.url).href,
+    name: "Next.js",
+    icon: new URL("@/assets/icons/front/nextjs_icon_dark.svg", import.meta.url).href,
+  },
+  {
+    name: "Angular",
+    icon: new URL("@/assets/icons/front/AngularFront.svg", import.meta.url).href,
   },
   {
     name: "Nuxt",

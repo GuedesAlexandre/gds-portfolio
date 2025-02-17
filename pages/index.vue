@@ -1,10 +1,9 @@
 <template>
 <HeroComponent/>
 <AboutComponent/>
+<TechnologyWatchComponent/>
 <SkillsComponent/>
 <ProjectComponent/>
 <ContactComponent/>
 </template>
-<script setup lang="ts">
-import ProjectComponent from '~/components/ProjectComponent.vue';
-</script>
+

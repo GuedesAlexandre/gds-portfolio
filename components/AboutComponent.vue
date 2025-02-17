@@ -20,7 +20,7 @@
       sein de BPCE Solutions Informatiques.
     </p>
   </div>
-  <div class="flex justify-center flex-col lg:flex-row gap-2 items-center mt-5">
+  <div class="flex justify-center flex-col lg:flex-row gap-2 lg:gap-6 items-center mt-5">
     <a
       href="https://www.linkedin.com/in/alexandre-guedesmmi/"
       target="_blank"
@@ -47,6 +47,8 @@
       </button></a
     >
   </div>
+  <CronComponent />
+  <CronProComponent />
 </template>
 
 <script setup lang="ts"></script>

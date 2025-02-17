@@ -3,22 +3,25 @@ import type { ProjectDetails } from "~/models/ProjectDetails";
 export const data: ProjectDetails[] = [
   {
     description:
-      "Azathoth est un projet personel développé en collaboration avec un amis. Il s'agit d'une application de monitoring qui fait le bilan de tout ce que je dois effectuer au quotidien. Elle me permet d'ograniser mes tâches en cours et en entreprise me permettant d'obtenir une origanisation plus stable. Elle analyse ce que j'effectue et là où je manque d'attention. Je dépose mes fichiers de notes dessus pour que en fonction d'une matrice, je sois capable de me situer dans l'avancé de mes cours.",
-    technologies: ["Angular", "Java", "Spring Boot", "PostgreSQL"],
+      "L\'IUT de Meaux ne dispose actuellement d'aucune application pour gérer efficacement les notes, les absences et la visualisation de l’établissement. En réponse à ce besoin, le projet MMIPlatform a été proposé par notre équipe. Cette application vise à centraliser et simplifier la gestion académique et administrative grâce à des outils modernes, notamment une vue interactive 3D des salles et une gestion avancée des matrices Excel.",
+    technologies: ["Angular", "Java", "Spring Boot", "PostgreSQL", "Docker", "Kubernetes"],
     github: "https://github.com/user/projet1",
     services: [
       "Branding",
       "UI/UX Design",
       "Dévelopement côté serveur",
       "Développement côté client",
+      "Hébergement"
     ],
-    img: new URL("../assets/ressources/Azathoth", import.meta.url).toString(),
+    img: new URL("../assets/ressources/MMIPlatform.png", import.meta.url).toString(),
     imgDetails: [
-      "https://example.com/img1_detail1.jpg",
-      "https://example.com/img1_detail2.jpg",
+      new URL("../assets/ressources/MMIPlatform/dashboard.png", import.meta.url).toString(),
+      new URL("../assets/ressources/MMIPlatform/teaching.png", import.meta.url).toString(),
     ],
-    identifier: "Azathoth",
-    name: "Azathoth",
+    
+    identifier: "MMIPlatform",
+    name: "MMIPlatform",
+    url : "https://nightgaunt.cloud"
   },
   {
     description:
@@ -31,7 +34,7 @@ export const data: ProjectDetails[] = [
       "Dévelopement côté serveur",
       "Développement côté client",
     ],
-    img: new URL("../assets/ressources/Zushi", import.meta.url).toString(),
+    img: new URL("../assets/ressources/Zushi.png", import.meta.url).toString(),
     imgDetails: [
       "https://example.com/img2_detail1.jpg",
       "https://example.com/img2_detail2.jpg",
@@ -45,7 +48,7 @@ export const data: ProjectDetails[] = [
     technologies: ["PHP", "Boostrap", "MySQL", "JavaScript"],
     github: "https://github.com/user/projet3",
     services: ["Branding", "UI/UX Design", "Dévelopement côté serveur"],
-    img: new URL("../assets/ressources/ACF2L", import.meta.url).toString(),
+    img: new URL("../assets/ressources/ACF2L.png", import.meta.url).toString(),
     imgDetails: [
       "https://example.com/img3_detail1.jpg",
       "https://example.com/img3_detail2.jpg",
@@ -66,7 +69,7 @@ export const data: ProjectDetails[] = [
       "Photo",
       "Redaction Web",
     ],
-    img: new URL("../assets/ressources/WebDoc", import.meta.url).toString(),
+    img: new URL("../assets/ressources/WebDoc.png", import.meta.url).toString(),
     imgDetails: [
       "https://example.com/img4_detail1.jpg",
       "https://example.com/img4_detail2.jpg",
@@ -85,7 +88,7 @@ export const data: ProjectDetails[] = [
       "Dévelopement côté client",
       "Modélisation 3D",
     ],
-    img: new URL("../assets/ressources/Evolve", import.meta.url).toString(),
+    img: new URL("../assets/ressources/Evolve.png", import.meta.url).toString(),
     imgDetails: [
       "https://example.com/img5_detail1.jpg",
       "https://example.com/img5_detail2.jpg",

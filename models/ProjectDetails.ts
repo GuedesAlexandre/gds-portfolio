@@ -9,4 +9,5 @@ export interface ProjectDetails extends Project{
     imgDetails: string[];
     identifier: string;
     name: string;
+    url?: string
 }
