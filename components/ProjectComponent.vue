@@ -31,7 +31,7 @@ import type { Project } from '~/models/Project';
       img: new URL("@/assets/ressources/ACF2L.png", import.meta.url).href,
     },
     {
-    identifier: "WebDoc",
+    identifier: "ItalieAEmporter",
     name: "WebDoc",
     img: new URL("@/assets/ressources/WebDoc.png", import.meta.url).href,
     }
