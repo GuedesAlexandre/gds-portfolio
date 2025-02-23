@@ -13,20 +13,20 @@
             </div>
             <div class="hidden md:flex md:items-center md:space-x-4">
                 <ul class="flex space-x-4">
-                    <li><a href="#" class="hover:text-red-500">Accueil</a></li>
-                    <li><a href="#about" class="hover:text-red-500">À propos</a></li>
-                    <li><a href="#projects" class="hover:text-red-500">Projets</a></li>
-                    <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+                    <li><a href="/#" class="hover:text-red-500">Accueil</a></li>
+                    <li><a href="/#about" class="hover:text-red-500">À propos</a></li>
+                    <li><a href="/#projects" class="hover:text-red-500">Projets</a></li>
+                    <li><a href="/#contact" class="hover:text-red-500">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <transition name="fade">
             <div v-if="isMenuOpen" class="md:hidden text-Text font-sans lg:text-[16px] text-[12px] text-base">
             <ul class="flex flex-col space-y-4 text-Text font-sans lg:text-[16px] text-[12px] text-base mt-12  w-full h-full p-6">
-                <li><a href="#" class="hover:text-red-500">Accueil</a></li>
-                <li><a href="#about" class="hover:text-red-500">À propos</a></li>
-                <li><a href="#projects" class="hover:text-red-500">Projets</a></li>
-                <li><a href="#contact" class="hover:text-red-500">Contact</a></li>
+                <li><a href="/#" class="hover:text-red-500">Accueil</a></li>
+                <li><a href="/#about" class="hover:text-red-500">À propos</a></li>
+                <li><a href="/#projects" class="hover:text-red-500">Projets</a></li>
+                <li><a href="/#contact" class="hover:text-red-500">Contact</a></li>
             </ul>
             </div>
         </transition>
