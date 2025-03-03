@@ -4,11 +4,17 @@
   </div>
   <div class="flex justify-center mt-2">
       <img class="p-3 z-10 w-1/2 lg:w-[380px] lg:h-[538px]" src="../assets/ressources/main-photo.png" />
-    </div>
- 
-  
+  </div>
 </template>
 
-<script setup lang="ts" >
+<script>
+import { gsap } from "gsap";
 
+export default {
+  name: "MainPhoto",
+  mounted() {
+
+    gsap.from("img", { duration: 1, opacity: 0, scale: 0.8, delay: 0.5 });
+  }
+};
 </script>

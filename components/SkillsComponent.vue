@@ -26,7 +26,7 @@ const front = ref<Skill[]>([
   },
   {
     name: "Angular",
-    icon: new URL("@/assets/icons/front/AngularFront.svg", import.meta.url).href,
+    icon: new URL("@/assets/icons/front/Angularfront.svg", import.meta.url).href,
   },
   {
     name: "Nuxt",
