@@ -7,6 +7,3 @@
   </footer>
 </template>
 
-<style>
-/* Ajoutez ici vos styles personnalisés pour le footer */
-</style>

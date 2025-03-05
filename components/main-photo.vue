@@ -13,7 +13,6 @@ import { gsap } from "gsap";
 export default {
   name: "MainPhoto",
   mounted() {
-
     gsap.from("img", { duration: 1, opacity: 0, scale: 0.8, delay: 0.5 });
   }
 };
