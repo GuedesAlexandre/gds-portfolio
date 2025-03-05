@@ -16,21 +16,21 @@ import type { Skill } from "~/models/Skill";
 
 const front = ref<Skill[]>([
   {
+    name: "Angular",
+    icon: new URL("@/assets/icons/front/Angularfront.svg", import.meta.url).href,
+  },
+  {
     name: "TypeScript",
     icon: new URL("@/assets/icons/front/TypeScriptfront.svg", import.meta.url)
       .href,
   },
   {
-    name: "Next.js",
-    icon: new URL("@/assets/icons/front/nextjs_icon_dark.svg", import.meta.url).href,
-  },
-  {
-    name: "Angular",
-    icon: new URL("@/assets/icons/front/Angularfront.svg", import.meta.url).href,
-  },
-  {
     name: "Nuxt",
     icon: new URL("@/assets/icons/front/Nuxtfront.svg", import.meta.url).href,
+  },
+  {
+    name: "Next.js",
+    icon: new URL("@/assets/icons/front/nextjs_icon_dark.svg", import.meta.url).href,
   },
   {
     name: "Tailwind",

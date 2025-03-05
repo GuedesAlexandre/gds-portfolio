@@ -3,6 +3,47 @@ import type { ProjectDetails } from "~/models/ProjectDetails";
 export const data: ProjectDetails[] = [
   {
     description:
+      "Chtulhu est un projet d'entreprise visant à monitorer les infrastructures et services existants du système d'informations de la DSI d'affacturage du groupe BPCE. Cette application combine une architecture logiciel robuste grâce à l'architecture hexagonale avec une interface utilisateur réactive développé en Nuxt avec la librairie Pinia, offrant une visibilité approfondie sur les performances et les activités des services. Cette solution est conçue pour simplifier la gestion des systèmes d'information, améliorer la productivité et offrir une expérience utilisateur optimale pour chacun des domaines de la DSI.",
+    technologies: [
+      "Nuxt.js",
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "OracleDB",
+      "Docker",
+      "Jenkins",
+      "RedHat OpenShift",
+    ],
+    github: [],
+    date: "Janvier 2023 à présent",
+    services: [
+      "Architecture système",
+      "Développement backend",
+      "Développement frontend",
+      "DevOps",
+      "CI/CD",
+    ],
+    img: new URL(
+      "../assets/ressources/Cthulhu.png",
+      import.meta.url
+    ).toString(),
+    imgDetails: [
+      new URL(
+        "../assets/ressources/Cthulhu/cthulhuservice.png",
+        import.meta.url
+      ).toString(),
+      new URL(
+        "../assets/ressources/Cthulhu/cthulhulogs.png",
+        import.meta.url
+      ).toString(),
+    ],
+    identifier: "Cthulhu",
+    name: "Cthulhu",
+    url: "",
+  },
+
+  {
+    description:
       "L'IUT de Meaux ne dispose actuellement d'aucune application pour gérer efficacement les notes, les absences et la visualisation de l’établissement. En réponse à ce besoin, le projet MMIPlatform a été proposé par notre équipe. Cette application vise à centraliser et simplifier la gestion académique et administrative grâce à des outils modernes, notamment une vue interactive 3D des salles et une gestion avancée des matrices Excel.",
     technologies: [
       "Next.js",

@@ -1,9 +1,9 @@
 <template>
 <HeroComponent/>
 <AboutComponent/>
-<TechnologyWatchComponent/>
 <SkillsComponent/>
 <ProjectComponent/>
+<TechnologyWatchComponent/>
 <ContactComponent/>
 </template>
 

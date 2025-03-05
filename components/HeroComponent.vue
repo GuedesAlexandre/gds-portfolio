@@ -6,7 +6,7 @@
     <h2 class="lg:text-[35px] text-[20px] font-sans font-bold">
       Alexandre Guedes
     </h2>
-    <span>Développeur FullStack chez BPCE SI</span>
+    <span>Apprenti Développeur Full Stack chez BPCE SI</span>
   </div>
   <div class="flex justify-center mt-4 gap-5">
     <button

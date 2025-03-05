@@ -2,9 +2,6 @@
   <div class="flex justify-center flex-col items-center mt-40" id="about">
     <TitleComponent title="Mon histoire" subtitle="A propos" />
   </div>
-  <div class="flex justify-center mt-4 gap-5">
-    <img src="../assets/ressources/profil.png" />
-  </div>
   <div class="flex justify-center">
     <p
       class="text-Text text-center mt-8 text-sm lg:text-[16px] w-full lg:w-[1033px] ml-6 mr-6 lg:ml-0 lg:mr-0"

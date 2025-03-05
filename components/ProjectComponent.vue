@@ -10,6 +10,11 @@ import type { Project } from '~/models/Project';
 
   const projects = ref<Project[]>([
     {
+      identifier: "Cthulhu",
+      name: "Cthulhu",
+      img: new URL("@/assets/ressources/cthulhu.png", import.meta.url).href,
+    },
+    {
       identifier: "MMIPlatform",
       name: "MMIPlatform",
       img:  new URL("@/assets/ressources/MMIPlatform.png", import.meta.url)

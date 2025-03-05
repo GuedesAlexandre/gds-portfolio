@@ -4,7 +4,7 @@ import type { Project } from "./Project";
 export interface ProjectDetails extends Project{
     description: string;
     technologies: string[];
-    github: string | GithubInfos[];
+    github?: string | GithubInfos[];
     services: string[];
     img: string;
     imgDetails: string[];

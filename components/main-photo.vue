@@ -3,7 +3,7 @@
      
   </div>
   <div class="flex justify-center mt-2">
-      <img class="p-3 z-10 w-1/2 lg:w-[380px] lg:h-[538px]" src="../assets/ressources/main-photo.png" />
+      <img class="p-3 z-10 w-1/2 lg:w-[380px] lg:h-[538px]" src="../assets/ressources/main.JPG" />
   </div>
 </template>
 
