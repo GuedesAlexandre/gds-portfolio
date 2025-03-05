@@ -47,6 +47,14 @@
       </button></a
     >
   </div>
+  <div class="flex justify-center items-center mt-5">
+    <TagComponent># Curiosité</TagComponent>
+    <TagComponent># Esprit d'analyse</TagComponent>
+    <TagComponent># Créativité</TagComponent>
+    <TagComponent># Travail d'équipe</TagComponent>
+    <TagComponent># Autonomie</TagComponent>
+    <TagComponent># Adaptabilité</TagComponent>
+  </div>
   <CronComponent />
   <CronProComponent />
 </template>
